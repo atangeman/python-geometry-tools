@@ -30,6 +30,7 @@ Classes are build for extensibility and incorporation into other projects as nee
 ## History
 
 [atangeman20161217] - First commit of previously completed code.
+
 [atangeman20160308] - Construction of initial code.
 
 ## Credits
