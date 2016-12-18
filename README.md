@@ -3,11 +3,11 @@
 
 Lightweight and simple methods for geometry comparison operations written using Python and ArcPy. Useful if you only want to compare a pair of points and don't want to mess with reading and writing to a geodatabase data table using ArcPy's native "Point Distance" tool. Also, serves as a pretty good example of my approach to neatly organized Python code.
  
-## There are two code bases: 
+### There are two code bases: 
 
-### WithArcpy: Requires ESRI ArcPy libraries to run. Will throw compilation errors if ArcPy is not installed. Meant to interface with existing ArcPy operations using ArcPy FeaturePoint object.
+#### WithArcpy: Requires ESRI ArcPy libraries to run. Will throw compilation errors if ArcPy is not installed. Meant to interface with existing ArcPy operations using ArcPy FeaturePoint object.
 
-### WithoutArcpy: Uses custom Point object to perform comparison operations. Includes example operation in the FindNearest_Example.py. 
+#### WithoutArcpy: Uses custom Point object to perform comparison operations. Includes example operation in the FindNearest_Example.py. 
 
 ## Installation
 
