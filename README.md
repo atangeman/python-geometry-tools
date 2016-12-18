@@ -5,9 +5,13 @@ Lightweight and simple methods for geometry comparison operations written using 
  
 ### There are two code bases: 
 
-#### WithArcpy: Requires ESRI ArcPy libraries to run. Will throw compilation errors if ArcPy is not installed. Meant to interface with existing ArcPy operations using ArcPy FeaturePoint object.
+#### WithArcpy: 
 
-#### WithoutArcpy: Uses custom Point object to perform comparison operations. Includes example operation in the FindNearest_Example.py. 
+Requires ESRI ArcPy libraries to run. Will throw compilation errors if ArcPy is not installed. Meant to interface with existing ArcPy operations using ArcPy FeaturePoint object.
+
+#### WithoutArcpy: 
+
+Uses custom Point object to perform comparison operations. Includes example operation in the FindNearest_Example.py. 
 
 ## Installation
 
