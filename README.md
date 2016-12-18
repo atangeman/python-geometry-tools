@@ -27,4 +27,6 @@ Classes are build for extensibility and incorporation into other projects as nee
 
 ## Credits
 
-Andrew Tangeman - 2016
+Andrew Tangeman, 2016. Method and class creation.
+	
+Deduplicator, 2014. Reply to StackExchange "Calculate distance between two latitude-longitude points? (Haversine formula)." Edited Jul 31 '14 at 1:25. From http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula.  
