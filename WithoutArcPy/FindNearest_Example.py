@@ -6,7 +6,6 @@
 #
 # Created:     08/03/2016
 # Copyright:   (c) ATangeman 2016
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
 from PointUtils import FindNearestPoint, Point, UnitTypes, CalcTypes
@@ -20,8 +19,8 @@ ptList = [Point(32.777056, -117.056189),  # Sample for Test - Assume result arra
 
 userLat = 32.689174 # Sample for Test - Assume input point from user
 userLong = -117.022401	 # Sample for Test - Assume input point from user
-userPt = Point(userLat, userLong) # User Defined Pointsdfsdfsdfwsefa
-minDist=10sf
+userPt = Point(userLat, userLong) # User Defined Point
+minDist=10
 
 # I have included two custom enums (UnitTypes and CalcTypes)
 # when they are assigned to a variable, reading the value results to an integer (Meters = 0, Feet = 1)
