@@ -2,8 +2,12 @@
 # PythonGeometryTools
 
 Lightweight and simple methods for geometry comparison operations written using Python and ArcPy. Useful if you only want to compare a pair of points and don't want to mess with reading and writing to a geodatabase data table using ArcPy's native "Point Distance" tool. Also, serves as a pretty good example of my approach to neatly organized Python code.
+ 
+There are two code bases: 
 
-Requires ESRI ArcPy libraries to run, but can be modified to use a custom point object if necessary. Will throw compilation errors if ArcPy is not installed.
+1. WithArcpy: Requires ESRI ArcPy libraries to run. Will throw compilation errors if ArcPy is not installed. Meant to interface with existing ArcPy operations using ArcPy FeaturePoint object.
+
+2. WithoutArcpy: Uses custom Point object to perform comparison operations. Includes example operation in the FindNearest_Example.py. 
 
 ## Installation
 
@@ -23,10 +27,9 @@ Classes are build for extensibility and incorporation into other projects as nee
 ## History
 
 [atangeman20161217] - First commit of previously completed code.
-[atangeman20160308] - Construction of initial code
+[atangeman20160308] - Construction of initial code.
 
 ## Credits
 
 Andrew Tangeman, 2016. Method and class creation.
 	
-Deduplicator, 2014. Reply to StackExchange "Calculate distance between two latitude-longitude points? (Haversine formula)." Edited Jul 31 '14 at 1:25. From http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula.  
