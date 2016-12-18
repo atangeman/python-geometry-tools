@@ -16,8 +16,6 @@ Requires ESRI ArcPy libraries to run. Will throw compilation errors if ArcPy is 
 
 Uses custom Point object to perform comparison operations. Includes example operation in the FindNearest_Example.py. 
 
-## Installation
-
 ## Usage
 
 Classes are build for extensibility and incorporation into other projects as needed. Some coding or modification required to use.
