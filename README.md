@@ -1,7 +1,7 @@
 
 # PythonGeometryTools
 
-Lightweight and simple methods for geometry comparison operations written using Python and ArcPy. Useful if you only want to compare a pair of points and don't want to mess with reading and writing to a geodatabase data table using ArcPy's native "Point Distance" tool. 
+Lightweight and simple methods for geometry comparison operations written using Python and ArcPy. Useful if you only want to compare a pair of points and don't want to mess with reading and writing to a geodatabase data table using ArcPy's native "Point Distance" tool. Also, serves as a pretty good example of my approach to neatly organized Python code.
 
 Requires ESRI ArcPy libraries to run, but can be modified to use a custom point object if necessary. Will throw compilation errors if ArcPy is not installed.
 
