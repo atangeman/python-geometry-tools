@@ -8,11 +8,11 @@ Lightweight and simple methods for geometry comparison operations written using 
 
 First, ensure Pyhon 2.7+ is installed. Optional: install ArcGIS for ArcPy libraries. You may then checkout and run example class straight from IDLE, or customize and inherit into existing Python project. There are two Python classes to choose from, depending on requirements.
 
-#### WithArcpy: 
+#### PythonGeometryTools/WithArcpy: 
 
 Requires ESRI ArcPy libraries to run. Will throw compilation errors if ArcPy is not installed. Meant to interface with existing ArcPy operations using ArcPy FeaturePoint object.
 
-#### WithoutArcpy: 
+#### PythonGeometryTools/WithoutArcpy: 
 
 Uses custom Point object to perform comparison operations. Includes example operation in the FindNearest_Example.py. 
 
